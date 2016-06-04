@@ -39,7 +39,7 @@ Instead of:
  */
 ```
 
-Only use inner doc comments //! to write crate and module-level documentation,
+Only use inner doc comments `//!` to write crate and module-level documentation,
 nothing else. When using `mod` blocks, prefer `///` outside of the block:
 
 ```rust
@@ -65,7 +65,7 @@ The first line in any doc comment should be a single-line short sentence
 providing a summary of the code. This line is used as a summary description
 throughout Rustdoc's output, so it's a good idea to keep it short.
 
-All doc comments, including the summary line, should be property punctuated.
+All doc comments, including the summary line, should be properly punctuated.
 Prefer full sentences to fragments.
 
 The summary line should be written in third person singular present indicative
@@ -113,15 +113,15 @@ it's important to mark what is not Rust so your tests don't fail.
 References and citation should be linked 'reference style.' Prefer
 
 ```
-[some paper][something]
+[Rust website][1]
 
-[something]: http://www.foo.edu/something.pdf)
+[1]: http://www.rust-lang.org
 ```
 
 to
 
 ```
-[some paper][http://www.foo.edu/something.pdf]
+[Rust website](http://www.rust-lang.org)
 ```
 
 ## English
