@@ -209,8 +209,8 @@ default TraitA + TraitB = B;
 If the compiler then needs to find a type which satisfies `TraitA + TraitB +
 TraitC` it will:
 
-1.  Check if `B: TraitA + TraitB + TraitC`. Although `B` must implement `TraitA
-    + TraitB` it might not implement `TraitC` and so may not be an appropriate
+1.  Check if `B: TraitA + TraitB + TraitC`. Although `B` must implement `TraitA +
+    TraitB` it might not implement `TraitC` and so may not be an appropriate
     choice.
 
 2.  Check if `A: TraitA + TraitB + TraitC`.
